@@ -29,7 +29,7 @@ import org.codehaus.plexus.personality.plexus.lifecycle.phase.Contextualizable;
 import org.codehaus.plexus.util.StringUtils;
 
 /**
- * Add eclipse artifacts from an eclipse installation to the local repo. This mojo automatically analize the eclipse
+ * Add eclipse artifacts from an eclipse installation to the local repo. This mojo automatically analyze the eclipse
  * directory, copy plugins jars to the local maven repo, and generates appropriate poms. Use
  * <code>eclipse:to-maven</code> for the latest naming conventions in place, <code>groupId</code>.
  * <code>artifactId</code>.
@@ -39,7 +39,6 @@ import org.codehaus.plexus.util.StringUtils;
  * @version $Id$
  * @goal make-artifacts
  * @requiresProject false
- * @deprecated use {@link EclipseToMavenMojo} for the latest naming conventions
  */
 public class MakeArtifactsMojo
     extends EclipseToMavenMojo
